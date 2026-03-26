@@ -23,6 +23,7 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "proud",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +37,7 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "sucks",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +52,18 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "This sucks",
+    "I can't wait for the concert",
+    "I'm so stressed about exams",
+    "Had a great day with friends",
+    "Lowkey stressed but kind of proud of myself",
+    "I absolutely love getting stuck in traffic",
+    "This is so boring",
+    "I love being angry", #next is more challenging posts
+    "Lowkey annoyed but highkey excited for the party tonight",
+    "I can't decide if I want to cry or laugh about this",
+    "This is the best worst day ever",
+    "I am so happy but also kind of sad about leaving for college",
 ]
 
 # Human labels for each post above.
@@ -65,6 +79,18 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "negative",  # "This sucks"
+    "positive",  # "I can't wait for the concert"
+    "negative",  # "I'm so stressed about exams"
+    "positive",  # "Had a great day with friends"
+    "mixed",     # "Lowkey stressed but kind of proud of myself"
+    "negative",  # "I absolutely love getting stuck in traffic"
+    "negative",  # "This is so boring"
+    "mixed",     # "I love being angry"
+    "mixed",     # "Lowkey annoyed but highkey excited for the party tonight"
+    "mixed",     # "I can't decide if I want to cry or laugh about this"
+    "mixed",     # "This is the best worst day ever"
+    "mixed",     # "I am so happy but also kind of sad about leaving for college"
 ]
 
 # TODO: Add 5-10 more posts and labels.
